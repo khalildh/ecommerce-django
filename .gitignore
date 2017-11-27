@@ -102,3 +102,9 @@ ENV/
 
 # SQLITE3
 *.sqlite3
+
+.vscode/
+
+bin/
+
+static_cdn/
