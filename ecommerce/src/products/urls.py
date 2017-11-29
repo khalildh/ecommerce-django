@@ -1,13 +1,8 @@
 from django.conf.urls import url
 
 from .views import (
-    ProductListView, 
-    # product_list_view, 
-    # ProductDetailView,
+    ProductListView,
     ProductDetailSlugView, 
-    # product_detail_view,
-    # ProductFeaturedListView,
-    # ProductFeaturedDetailView,
 )
 
 urlpatterns = [
