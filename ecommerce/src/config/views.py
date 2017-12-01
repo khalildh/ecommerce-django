@@ -5,6 +5,7 @@ from django.shortcuts import render, redirect
 from .forms import ContactForm, LoginForm, RegisterForm
 
 def home_page(request):
+    # print(request.session.get("first_name", "Unknown"))
     context = {
         "title": "Hello World",
         "content": "Welcome to the home page",
@@ -41,7 +42,7 @@ def login_page(request):
     }
     # print(request.user.is_authenticated())
     if form.is_valid():
-        print(form.cleaned_data)
+        # print(form.cleaned_data)
         username = form.cleaned_data.get("username")
         password = form.cleaned_data.get("password")
         user = authenticate(request, username=username, password=password)
