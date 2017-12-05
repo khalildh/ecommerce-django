@@ -38,10 +38,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'accounts',
+    'addresses',    
+    'billing',
     'products',
     'search',
     'tags',
     'carts',
+    'orders',
 ]
 
 MIDDLEWARE = [
@@ -55,6 +59,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'config.urls'
+
+LOGOUT_REDIRECT_URL = '/login/'
 
 TEMPLATES = [
     {
