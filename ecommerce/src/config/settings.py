@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'accounts',
     'addresses',    
+    'analytics',
     'billing',
     'products',
     'search',
@@ -49,6 +50,10 @@ INSTALLED_APPS = [
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
+
+FORCE_SESSION_TO_ONE = False
+FORC_INACTIVE_USER_ENDSESSION = False
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
