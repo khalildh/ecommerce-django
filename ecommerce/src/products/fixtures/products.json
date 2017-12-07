@@ -1,0 +1,72 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "T-Shirt",
+        "slug": "shirt",
+        "description": "This is an awesome shirt, Buy it.",
+        "price": "39.99",
+        "image": "products/26606281220/26606281220.jpg",
+        "featured": false,
+        "active": true,
+        "timestamp": "2017-11-28T01:21:46.868Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "Hat",
+        "slug": "hat",
+        "description": "THis is an awesome hat",
+        "price": "39.99",
+        "image": "products/16640003989/16640003989.jpg",
+        "featured": false,
+        "active": true,
+        "timestamp": "2017-11-28T01:21:46.868Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "title": "Computer",
+        "slug": "supercomputer",
+        "description": "Yeahh",
+        "price": "1000.00",
+        "image": "products/7217338894/7217338894.jpg",
+        "featured": true,
+        "active": true,
+        "timestamp": "2017-11-28T01:21:46.868Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "title": "lorem-ipsum",
+        "slug": "lorem-ipsum",
+        "description": "Minus repudiandae qui velit earum laborum dolores excepturi. Voluptate voluptates tempora quo. Necessitatibus aut quam consequatur.\r\nAut illo esse veniam iusto qui soluta asperiores est. Fugiat reiciendis suscipit animi veniam. Mollitia ab quod voluptatem autem perferendis. Eligendi nisi amet sit repellendus. Sapiente tempore dolore quas aut exercitationem rem voluptatum.\r\nOptio consequuntur maiores voluptates itaque accusantium quia labore dolor. Aspernatur molestias aliquam aspernatur aliquid omnis vel et. Nulla et et deleniti. Atque asperiores provident non natus quo. Ut vero hic ut.\r\nAb quia perspiciatis explicabo sequi perferendis. Ea aperiam qui quia reiciendis. Excepturi voluptatem alias nisi voluptatem ipsam eos autem architecto. Modi alias dolor enim iusto. Dignissimos omnis atque commodi dolorum. Veritatis ea cum eos repellendus sequi ut.\r\nDicta et voluptas vero. Facilis officiis omnis ad occaecati voluptas. Sint dicta numquam eaque ea quas consectetur. Voluptatum eum maiores quo occaecati ut maxime. Ut ut est ullam aut eum.",
+        "price": "39.99",
+        "image": "",
+        "featured": false,
+        "active": true,
+        "timestamp": "2017-11-28T01:21:46.868Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "title": "Hair",
+        "slug": "hair",
+        "description": "BEST NATURAL HAIR IN THE GODDAMN WORLD",
+        "price": "40.00",
+        "image": "products/20110957331/20110957331.jpg",
+        "featured": false,
+        "active": true,
+        "timestamp": "2017-12-06T22:48:40.350Z"
+    }
+}
+]
