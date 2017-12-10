@@ -18,3 +18,6 @@
     - Shipping / Billing Address
     - Cart
     - Status -- Shipped ? Cancelled
+
+4. Backup Fixtures
+    python manage.py dumpdata products --format json --inent 4 > products/fixtures/products.json
