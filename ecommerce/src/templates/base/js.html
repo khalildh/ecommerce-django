@@ -6,9 +6,16 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 
+<!-- Stirpe JS -->
+<script src="https://js.stripe.com/v3/"></script>
 
 <!-- jQuery Confirm -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
+
+
+<!-- JS Render -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.90/jsrender.min.js"></script>
+{% include 'base/js_templates.html' %}
 
 <!-- Django Secure Ajax -->
 <script src='{% static "js/csrf.ajax.js" %}'></script>
@@ -16,3 +23,8 @@
 
 <!-- eCommerce Custom JS -->
 <script src='{% static "js/ecommerce.js" %}'></script>
+
+<!-- eCommerce Main JS -->
+<script src='{% static "js/ecommerce.main.js" %}'></script>
+
+
